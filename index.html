@@ -4,12 +4,15 @@
         <meta charset="utf-8">
         <title>Laerton Santos</title>
         <link rel="stylesheet" href="style.css">
+        
     </head>
     <body>
         <header>
-            <img src="Perfil-foto-Laerton.png" alt="Ilustração do rosto de Laerton Santos" width="100" height="100" >
-        <h1 id="title" style="padding: 0px; margin: 0px; border: 0px;">Programing HTML5 with DIO</h1>
-        <p style="font-style: normal; color: lightslategray; padding: 0px; margin: 0px; border: 0px;"><strong>By Laerton Santos</strong></p>
+        <div style="text-align: center">
+            <img src="Perfil-foto-Laerton.png" alt="Ilustração do rosto de Laerton Santos" width="100" height="100" class="photo">
+            <h1 id="title" style="padding: 0px; margin: 0px; border: 0px;">Programing HTML5 with DIO</h1>
+            <p style="font-style: normal; color: lightslategray; padding: 0px; margin: 0px; border: 0px; "><strong>By Laerton Santos</strong></p>
+        </div>
         </header>
         <section>
             <header>
@@ -18,24 +21,28 @@
             <article class="post">
                 <header>
                     <h3 class="post_title">Post #1</h3>
-                    <img src="htmlCode.jpg" alt="Imagem de editor de texto contendo código HTML" width="720" height="256">
+                    <img src="htmlCode.jpg" alt="Imagem de editor de texto contendo código HTML" class="post_image">
                 </header>
-                <p style="color: darkgray">
+                <p class="post_content" style="color: rgb(217, 217, 221)">
                     Lorem ipsum dolor sit amet, <a href="https://www.linkedin.com/in/laertonsantos/" target="_blank">consectetur adipiscing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore <a href="mailto:laertonss@gmail.com" target="_blank">magna aliqua</a>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </article>
         </section>
-        <footer style="color: darkgray;">
-            <h4>Contatos:</h4>
-            <li>
-                <a href="mailto:laertonss@gmail.com" target="_blank">laertonss@gmail.com</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/laertonsantos/" target="_blank">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://github.com/laertonss" target="_blank">Github</a>
-            </li>
+        <footer class="post_footer" style="color: rgb(217, 217, 221)">
+            <h4 class="post_title_footer">Contatos:</h4>
+            <div class="post_title_contact">
+                <ul class="contact_list">
+                    <li>
+                        <a href="mailto:laertonss@gmail.com" target="_blank">laertonss@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/laertonsantos/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/laertonss" target="_blank">Github</a>
+                    </li>
+                </ul>
+            </div>
         </footer>
 
     </body>
