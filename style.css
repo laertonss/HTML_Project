@@ -11,6 +11,7 @@ body {
  background-position: center;
  width: 100px;
  height: 100px;
+ font-style:;
 }
 
 #title, .subtitle, .post_title{
@@ -62,6 +63,7 @@ a {
     background-color: rgb(80, 78, 78);
     border-radius: 10px;
     border: 1px solid rgb(51, 51, 51);
+    display: flex;
 }
 
 .post_title_footer{
@@ -69,9 +71,19 @@ a {
     margin-bottom: 0%;
 }
 
-.post_title_contact{
-    margin: 5px 15px 15px 15px;
-    
+.post_contact{
+    margin: 5px 5px 15px 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(51, 51, 51);
+    display: inline-block;
+    width: 50%;
+}
+.post_apoio{
+    margin: 5px 15px 15px 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(51, 51, 51);
+    display: inline-block;
+    width: 50%;
 }
 
 .contact_list{
